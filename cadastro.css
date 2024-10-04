@@ -1,0 +1,104 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(156, 24, 24);
+    padding: 20px;
+}
+nav{
+    background-color: rgb(138, 20, 20);
+    padding: 10px 0;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: right;
+}
+nav ul li{
+    margin: 0 15px;
+}
+nav ul li a{
+    color: rgb(230, 234, 172);
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Bodoni Moda SC", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+    transition: color 0.3s;
+}
+nav ul li a :hover{
+    color: rgb(198, 99, 175);
+}
+.container{
+    width: 100%;
+    max-width: 400px;
+    background: white;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(168, 19, 19);
+}
+
+footer{
+    background-color: rgb(143, 28, 28);
+    color:rgb(255, 255, 255);
+    padding: 40px 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.footer-section{
+    flex-basis: 23%;
+    margin-bottom: 20px;
+}
+.footer-section h4{
+    margin-bottom: 15px;
+    font-size: 18px;
+    color:aliceblue;
+}
+.footer-section p,footer-section ul {
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+.footer-section ul{
+    list-style-type: none;
+}
+.footer-section ul li{
+    margin-bottom: 10px;
+}
+.footer-section ul li a{
+    color: rgb(247, 72, 189);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.footer-section ul li a:hover{
+    color: rgb(207, 186, 227);
+}
+.social-links a{
+    display: inline-block;
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.social-links a:hover{
+    color: rgb(246, 204, 234);
+}
+.footer-bottom{
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    border-top: 1px solid #444;
+    font-size: 14px;
+}
+.footer-bottom p{
+    margin: 0;
+}
